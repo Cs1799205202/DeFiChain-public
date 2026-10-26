@@ -1,0 +1,10 @@
+# Foundry config (optional tooling): `forge build`, `forge test`, `forge create`.
+# https://book.getfoundry.sh  -- the Go and Python SDKs do not need it.
+[profile.default]
+src = "."
+test = "test"
+out = "../build/forge"
+cache_path = "../build/forge-cache"
+libs = []
+optimizer = true
+evm_version = "prague"

@@ -1,0 +1,11 @@
+# build output and local runs
+/build/
+/devnet-data/
+/results/
+*.log
+*.test
+/defichain-node
+__pycache__/
+# never commit API keys
+.llm-key
+*.key
